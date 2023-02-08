@@ -7,10 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node shopApi.js"
   },
-  "keywords": ["node","build"],
+  "keywords": [
+    "node",
+    "build"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "pg": "^8.9.0"
   }
 }
